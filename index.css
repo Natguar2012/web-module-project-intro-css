@@ -25,25 +25,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-body {
-	line-height: 1;
-}
-
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 *{
 	box-sizing: border-box;
@@ -58,6 +39,7 @@ body{
 	font-size: 1.6rem;
 	line-height: 1.5;
 	font-family: 'Roboto Mono', monospace;
+	color: #4f4f4f;
 }
 
 h1{
@@ -75,13 +57,18 @@ section{
 header{
 	background-color: #F9E7DC; 
 }
+
+header a:hover{
+	background:#FFF;
+	color: rgb(202, 118, 69);
+}
+
 nav{
 	padding:2% 0;
 }
 
 nav a{
 	display: inline-block;
-	padding:2% 0;
 	width:10%;
 	text-align:center;
 	border-radius: 10px;
@@ -92,11 +79,6 @@ nav a{
 .orange{
 	background-color: #FF764E;
 	margin-left: 10%;
-}
-
-header a:hover{
-	background:#FFF;
-	color: rgb(202, 118, 69);
 }
 
 .blue{
@@ -113,6 +95,11 @@ header a:hover{
 .cta{
 	position: relative;
 }
+
+.text{
+	font-weight: bold;
+}
+
 .text, .image{
 	display: inline-block;
 }
