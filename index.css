@@ -94,6 +94,11 @@ nav a{
 	margin-left: 10%;
 }
 
+header a:hover{
+	background:#FFF;
+	color: rgb(202, 118, 69);
+}
+
 .blue{
 	background-color: #5ED3EB;
 	margin:0 24%;
